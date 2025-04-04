@@ -25,7 +25,8 @@ executable tui-clock
                        vty >= 5.38,
                        vty-crossplatform,
                        vty-unix,
-                       process
+                       process,
+                       microlens
   ghc-options:         -Wall
                        -Wcompat
                        -Widentities
